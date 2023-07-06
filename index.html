@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <title>Dev | sanchez</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="title-container">
+      <h1 id="title">s a n c h  <span id="blink" class="wave">x y z</span></h1>
+    </div>
+  </header>
+  <div class="container">
+    <div class="content-container">
+      <div class="card card1" onmouseover="expandCard('card1')" onmouseout="shrinkCard('card1')">
+        <section id="about-social-media">
+          <h2>Hi!</h2>
+          <p>I am a backend developer with experience in handling and creating APIs, as well as deploying systems in the cloud using Docker, and Kubernetes technologies. Additionally, I have skills in implementing databases such as Postgres and MongoDB.</p>
+          
+          <ul>
+            <a href="https://twitter.com/sanchxyz" title="twitter" target="_blank">
+              <img src="images/twitter.svg" alt="">
+            </a>
+            <h4>c o n t a c t a m e</h4>
+          </ul>
+            
+          <ul>
+            <li>
+              <a href="https://github.com/sanchxyz" title="github" target="_blank"><img src="images/github.svg" alt="">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/gustavo-sanch%C3%A9z-4125a7124/" title="linkedin" target="_blank"><img src="images/linkedin.svg" alt="">
+              </a>
+            </li>
+            <li>
+              <a href="mailto:sanchz_dev@outlook.com" title="mail">
+                <img src="images/mail.svg" alt="">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/sanch_xyz/" title="instagram" target="_blank"><img src="images/instagram.svg" alt="">
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="card card2" onmouseover="expandCard('card2')" onmouseout="shrinkCard('card2')">
+        <section id="project-section">
+          <h2>Portfolio</h2>
+          <p>Here you will find some of my personal projects in which I have applied my experience in the backend area and cloud-based technologies, as well as the use of containers. </p>
+          <ul>
+            <li>
+              <a href="https://sanchxyz.github.io/web_social_card/" title="github" target="_blank"><img src="images/badge-check.svg" alt=""><span class="icon-text">PAGES |  DOCKER </span>
+              </a>
+            </li>
+            <li>
+              <a href="https://sanchxyz.github.io/web_social_card/" title="linkedin" target="_blank"><img src="images/badge-check.svg" alt=""><span class="icon-text">DB |  MULTI CLOUD</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://sanchxyz.github.io/web_social_card/" title="mail" target="_blank"><img src="images/badge-check.svg" alt=""><span class="icon-text">IN |  LOUD BALANCER</span>
+              </a>
+          </li>
+            <!-- Agrega más elementos de lista según sea necesario -->
+          </ul>
+        </section>
+      </div>
+      <div class="card card3" onmouseover="expandCard('card3')" onmouseout="shrinkCard('card3')">
+        <section id="project-externos">
+          <h2>Side Projects</h2>
+          <p>Freelance projects in which I developed web design skills and database application.</p>
+          <ul>
+            <li>
+              <a href="https://sanchxyz.github.io/web_social_card/" title="github" target="_blank"><img src="images/arrow.svg" alt=""><span class="icon-text">PAGES |  DOCKER </span>
+              </a>
+            </li>
+            <li>
+              <a href="https://sanchxyz.github.io/web_social_card/" title="linkedin" target="_blank"><img src="images/arrow.svg" alt=""><span class="icon-text">DB |  MULTI CLOUD</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://sanchxyz.github.io/web_social_card/" title="mail" target="_blank"><img src="images/arrow.svg" alt=""><span class="icon-text">IN |  LOUD BALANCER</span>
+              </a>
+          </li>
+            <!-- Agrega más elementos de lista según sea necesario -->
+          </ul>
+        </section>
+      </div>
+    </div>
+  </div>
+  <script>
+    window.addEventListener('load', function() {
+      document.body.classList.add('loaded');
+    });
+  </script>
+</body>
+</html>
